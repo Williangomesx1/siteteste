@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'media';
+    src: url('/fontes/GRAVEDIGGER\ PERSONAL\ USE.ttf') format('truetype');
+    font-weight: normal;
+    
+}
+
+* {
+    
+    padding: 0px;
+    margin: 0px;   
+}
+
+
+
+
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/03b2abff-128e-4302-bd72-b9f5b0a60367/d7fduqv-44c1a9d7-3b56-4b25-aa72-cf9be7fc1e98.jpg/v1/fill/w_1600,h_900,q_75,strp/naruto_x_sasuke____full_hd_wallpaper___by_oxelon_d7fduqv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMDNiMmFiZmYtMTI4ZS00MzAyLWJkNzItYjlmNWIwYTYwMzY3XC9kN2ZkdXF2LTQ0YzFhOWQ3LTNiNTYtNGIyNS1hYTcyLWNmOWJlN2ZjMWU5OC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.MoT2mNydEO8RgkRllOKa5bEIkNNXWnanb8XEvxgsEJg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+    
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+    background-color: rgb(43, 34, 27);
+    text-align: center;
+    padding: 20px;
+    min-height: 150px;
+}
+
+header h1 {
+    font-family:  'media',  Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(207, 20, 20, 0.486);
+    padding-top: 50px;
+    font-size: 3.1em;
+}
+
+header p {
+    font-family:   Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding-top: 30px;
+}
+
+
+nav {
+    
+    background-color: rgba(0, 0, 0, 0.726);
+    
+    text-align: center;
+    padding: 10px;
+
+    max-width: 220px;
+}
+
+nav a {
+    color: rgb(231, 231, 14);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 34);
+}
+
+
+main {
+    background-color: rgba(85, 20, 12, 0);
+    color: rgb(245, 245, 245);
+    margin: auto;
+    text-align: center;    
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+    border-radius: 0px 0px 10px 10px;
+
+    min-width: 300px;
+    max-width: 700px;
+
+}
+
+
+main h1 {
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+main h2 {
+    
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    padding: 20px;
+}
+
+
+main p {
+    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-size: 1.2em;
+    
+}
+
+
+
+div.video {
+    
+    
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(43, 34, 27);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    
+    
+}
